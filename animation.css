@@ -1,0 +1,29 @@
+  @keyframes div-animation{
+    from {
+        width: 250px;
+        height: 250px;
+        background-color: #ec407a;
+    }
+    to {
+        width: 400px;
+        height: 400px;
+        background-color: #673ab7;
+        border-radius: 50%;
+    }
+}
+
+
+div{
+     width: 250px;
+    height: 250px;
+    background-color: #ec407a;
+} 
+div:hover {
+    animation-name: div-animation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
